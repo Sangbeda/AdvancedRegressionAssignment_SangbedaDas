@@ -24,14 +24,15 @@
 
 - The optimal regularization strength for Lasso regression, determined through hyperparameter tuning, is approximately 316.23.
 
--                               **Performance Table
-|Regression|Dataset|RSS|R2|Adj. R2|MSE|NRMSE|  
-|Linear|Train|2.852138e+12|0.553005|0.549026|2.793475e+09|-52853.331582|  
-|Linear|Test|1.542873e+12|0.452632|0.441122|3.522541e+09|-59350.995782|  
-|Ridge|Train|1.750575e+12|0.725645|0.723203|1.714569e+09|-41407.356141| 
-|Ridge|Test|7.596290e+11|0.730505|0.724838|1.734313e+09|-41645.081050|  
-|Lasso|Train|1.289688e+12|0.797877|0.796077|1.263161e+09|-35540.979030| 
-|Lasso|Test|5.527885e+11|0.803886|0.799762|1.262074e+09|-35525.682431|**
+-                               Performance Table
+|Regression|Dataset|RSS         |R2      |Adj. R2 |MSE         |NRMSE        | 
+|----------|-------|------------|--------|--------|------------|-------------|
+|Linear    |Train  |2.852138e+12|0.553005|0.549026|2.793475e+09|-52853.331582|  
+|Linear    |Test   |1.542873e+12|0.452632|0.441122|3.522541e+09|-59350.995782|  
+|Ridge     |Train  |1.750575e+12|0.725645|0.723203|1.714569e+09|-41407.356141| 
+|Ridge     |Test   |7.596290e+11|0.730505|0.724838|1.734313e+09|-41645.081050|  
+|Lasso     |Train  |1.289688e+12|0.797877|0.796077|1.263161e+09|-35540.979030| 
+|Lasso     |Test   |5.527885e+11|0.803886|0.799762|1.262074e+09|-35525.682431|
 
 - Overall, lower values of RSS, MSE, and NRMSE and higher values of R2 and Adj. R2 indicate better model performance.
 
@@ -61,8 +62,6 @@ Equation for the lasso regression model: y = 85725.947736 + 30512.222719 * YearR
 - Seaborn - version 0.12.2
 - sklearn - version 1.2.1
 - statsmodels - version 0.13.5
-
-
 
 
 ## Contact
